@@ -1,0 +1,25 @@
+#p1::before {
+	content: "przed elementem";
+	color: aqua;
+}
+
+#p2::after {
+	content: "po elemencie";
+	color: red;
+}
+
+#p3::first-letter{
+	content: "pierwsza litera";
+	color: green;
+	text-transform: uppercase;
+}
+
+#p4::first-line{
+	content: "pierwsza linia";
+	color: yellow;
+	text-transform: capitalize;
+}
+
+p::selection{
+	color: deeppink;
+}
